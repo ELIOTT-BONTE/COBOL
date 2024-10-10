@@ -13,7 +13,7 @@ sudo apt install gnucobol
 ## Compiling COBOL Programs
 To compile a COBOL program (.cbl) into an executable, use the following command:
 
-´´´cobc -x -o nameOfExecutable NAME_OF_COBOL_PROGRAM.cbl
+```cobc -x -o nameOfExecutable NAME_OF_COBOL_PROGRAM.cbl
 ```
 
 ## Running the Executable
