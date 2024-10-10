@@ -1,16 +1,23 @@
-This repo is made as an aggregation of COBOL projects, to demonstrate COBOL proficiency
+# COBOL Projects Repository
 
-To run cobol programs, it is necessary to have a COBOL compiler.
-Linux users can use the command
+This repository aggregates various COBOL projects to demonstrate proficiency in COBOL programming.
 
-sudo apt insall gnucobol
+## Requirements
 
-to obtain one.
+To run COBOL programs, you need a COBOL compiler. For Linux users, you can install GnuCOBOL with the following command:
 
-A .cbl program is compiled as an executable like such
+```bash
+sudo apt install gnucobol
+´´´
 
-cobc -x -o nameOfExecutable NAME_OF_COBOL_PROGRAM.cbl
+## Compiling COBOL Programs
+To compile a COBOL program (.cbl) into an executable, use the following command:
 
-executing the resultin executable is done, as traditionally in Linux
+´´´cobc -x -o nameOfExecutable NAME_OF_COBOL_PROGRAM.cbl
+´´´
 
-./nameOfExecutable
+## Running the Executable
+Once compiled, you can execute the resulting program using the standard Linux command:
+
+´´´./nameOfExecutable
+´´´
